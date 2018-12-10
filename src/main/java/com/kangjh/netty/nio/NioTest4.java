@@ -34,6 +34,8 @@ public class NioTest4 {
 		}
 		inputChannel.close();
 		outputChannel.close();
+		inputStream.close();
+		outputStream.close();
 	}
 
 }
